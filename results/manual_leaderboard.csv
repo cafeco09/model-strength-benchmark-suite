@@ -1,0 +1,4 @@
+model_id,prompts_rated,ratings_count,emotion_recognition,validation_without_overagreement,social_judgement,creative_voice,humanlike_conversation,practical_usefulness,boundary_safety,low_sycophancy,overall_score
+grok-web,1,1,6.0,6.0,6.0,7.0,7.0,6.0,5.0,4.0,6.1000000000000005
+chatgpt-web,1,1,6.0,6.0,6.0,5.0,5.0,7.0,7.0,7.0,5.949999999999999
+gemini-web,1,1,6.0,6.0,6.0,6.0,6.0,6.0,5.0,4.0,5.8
