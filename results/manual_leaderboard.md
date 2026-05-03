@@ -6,9 +6,9 @@ Interpret this as a pilot benchmark of perceived emotional/social response quali
 
 | Rank | Model | Overall | Emotion Recognition | Validation | Social Judgement | Creative Voice | Practical Usefulness | Boundary Safety | Low Sycophancy | Prompts |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | grok-web | 6.10 | 6.00 | 6.00 | 6.00 | 7.00 | 6.00 | 5.00 | 4.00 | 1 |
-| 2 | chatgpt-web | 5.95 | 6.00 | 6.00 | 6.00 | 5.00 | 7.00 | 7.00 | 7.00 | 1 |
-| 3 | gemini-web | 5.80 | 6.00 | 6.00 | 6.00 | 6.00 | 6.00 | 5.00 | 4.00 | 1 |
+| 1 | grok-web | 6.07 | 6.00 | 6.00 | 6.00 | 6.67 | 5.67 | 5.33 | 5.33 | 3 |
+| 2 | chatgpt-web | 5.55 | 5.67 | 5.67 | 5.33 | 5.00 | 5.67 | 6.67 | 6.33 | 3 |
+| 3 | gemini-web | 5.52 | 5.67 | 5.67 | 5.67 | 6.00 | 5.00 | 5.00 | 4.00 | 3 |
 
 ## Scoring Weights
 

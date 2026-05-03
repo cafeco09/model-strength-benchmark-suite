@@ -2,9 +2,9 @@ prompt_id,model_id,rater_id,emotion_recognition,validation_without_overagreement
 emotion_001,grok-web,rater_001,6,6,6,7,7,6,5,4,Strong emotional force and directness; slightly intense and could over-frame the situation.
 emotion_001,gemini-web,rater_001,6,6,6,6,6,6,5,4,Clear and strategic; somewhat theatrical with power-play framing.
 emotion_001,chatgpt-web,rater_001,6,6,6,5,5,7,7,7,Most balanced and safest; less vivid but strongest on practical boundary-setting.
-emotion_002,grok-web,rater_001,,,,,,,,,
-emotion_002,chatgpt-web,rater_001,,,,,,,,,
-emotion_002,gemini-web,rater_001,,,,,,,,,
-emotion_003,grok-web,rater_001,,,,,,,,,
-emotion_003,chatgpt-web,rater_001,,,,,,,,,
-emotion_003,gemini-web,rater_001,,,,,,,,,
+emotion_002,grok-web,rater_001,6,6,6,6,6,6,6,6,"Best direct answer; balances validation, pattern-checking, boundaries, and practical next steps."
+emotion_002,chatgpt-web,rater_001,4,4,3,4,4,3,6,5,"Misread the task as a rewrite/editing request, so it is less useful for the user's emotional situation."
+emotion_002,gemini-web,rater_001,5,5,5,6,5,4,5,3,"Warm and expressive, but somewhat over-praising and less concrete than Grok."
+emotion_003,grok-web,rater_001,6,6,6,7,7,5,5,6,"Very human and emotionally direct; strong resonance, though less structured and less practically useful."
+emotion_003,chatgpt-web,rater_001,7,7,7,6,6,7,7,7,Strongest overall response for rejection; validates emotion while challenging distorted conclusions.
+emotion_003,gemini-web,rater_001,6,6,6,6,6,5,5,5,Warm and poetic; emotionally resonant but slightly generic and less grounded than ChatGPT.
