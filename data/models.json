@@ -1,0 +1,58 @@
+[
+  {
+    "model_id": "grok-4.1-fast",
+    "provider": "xai",
+    "family": "grok",
+    "primary_track": "emotional_social_intelligence",
+    "notes": "Example model ID. Confirm current API model name before running."
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "provider": "anthropic",
+    "family": "claude",
+    "primary_track": "agentic_coding",
+    "notes": "Example model ID. Confirm current API model name before running."
+  },
+  {
+    "model_id": "gpt-5.2",
+    "provider": "openai",
+    "family": "gpt",
+    "primary_track": "professional_work_product",
+    "notes": "Example model ID. Confirm current API model name before running."
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "provider": "google",
+    "family": "gemini",
+    "primary_track": "multimodal_reasoning",
+    "notes": "Example model ID. Confirm current API model name before running."
+  },
+  {
+    "model_id": "deepseek-r1",
+    "provider": "deepseek",
+    "family": "deepseek",
+    "primary_track": "cost_efficient_reasoning",
+    "notes": "Example model ID. Confirm current API model name before running."
+  },
+  {
+    "model_id": "qwen3-coder",
+    "provider": "qwen",
+    "family": "qwen",
+    "primary_track": "multilingual_agentic_engineering",
+    "notes": "Example model ID. Confirm current API model name before running."
+  },
+  {
+    "model_id": "mistral-large-latest",
+    "provider": "mistral",
+    "family": "mistral",
+    "primary_track": "open_deployment_efficiency",
+    "notes": "Example model ID. Confirm current API model name before running."
+  },
+  {
+    "model_id": "llama-4-maverick",
+    "provider": "meta_or_hosted_provider",
+    "family": "llama",
+    "primary_track": "customisable_open_model",
+    "notes": "Example model ID. Confirm current API/provider model name before running."
+  }
+]

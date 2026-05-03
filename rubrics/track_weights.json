@@ -1,0 +1,42 @@
+{
+  "emotional_social_intelligence": {
+    "emotional_resonance": 0.25,
+    "creative_voice": 0.20,
+    "social_judgement": 0.15,
+    "conversational_personality": 0.15,
+    "real_time_context": 0.15,
+    "boundary_safety": 0.10
+  },
+  "agentic_coding": {
+    "coding_correctness": 0.30,
+    "agentic_planning": 0.20,
+    "instruction_following": 0.15,
+    "careful_judgement": 0.15,
+    "safety_boundary": 0.10,
+    "explanation_quality": 0.10
+  },
+  "professional_work_product": {
+    "professional_output_quality": 0.25,
+    "analytical_reasoning": 0.20,
+    "long_context_synthesis": 0.15,
+    "structured_artifact_quality": 0.15,
+    "coding_practicality": 0.15,
+    "factual_reliability": 0.10
+  },
+  "multimodal_reasoning": {
+    "visual_reasoning": 0.25,
+    "scientific_reasoning": 0.20,
+    "multimodal_synthesis": 0.15,
+    "mathematical_reasoning": 0.15,
+    "interactive_explanation": 0.15,
+    "factual_grounding": 0.10
+  },
+  "cost_efficient_reasoning": {
+    "reasoning_accuracy": 0.30,
+    "coding_accuracy": 0.20,
+    "cost_efficiency": 0.20,
+    "self_correction": 0.10,
+    "latency_adjusted_quality": 0.10,
+    "open_deployment_practicality": 0.10
+  }
+}

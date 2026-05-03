@@ -1,0 +1,2 @@
+{"prompt_id":"multi_001","track":"multimodal_reasoning","category":"chart_reasoning","risk_level":"low","prompt":"A chart shows revenue rising by 40%, but the y-axis starts at 90 rather than 0 and customer count is flat. Explain how the visual could mislead an executive audience."}
+{"prompt_id":"multi_002","track":"multimodal_reasoning","category":"visual_explanation","risk_level":"low","prompt":"Explain how you would evaluate a model's ability to reason over screenshots, charts and tables without rewarding superficial visual description."}

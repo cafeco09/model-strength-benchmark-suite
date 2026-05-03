@@ -1,0 +1,10 @@
+python-dotenv
+pandas
+numpy
+tqdm
+matplotlib
+scikit-learn
+openai
+anthropic
+google-genai
+requests

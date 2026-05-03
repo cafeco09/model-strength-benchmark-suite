@@ -1,0 +1,22 @@
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Results that may be too large or generated repeatedly
+results/raw/
+data/model_outputs.jsonl
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
