@@ -1,45 +1,14 @@
-name: Run benchmark scaffold
+- name: Commit generated results
+  run: |
+    git config user.name "github-actions"
+    git config user.email "github-actions@github.com"
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+    git add results/
 
-permissions:
-  contents: write
-
-jobs:
-  run-benchmark:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run model scaffold
-        run: |
-          python src/run_models.py
-
-      - name: Calculate placeholder scores
-        run: |
-          python src/calculate_scores.py
-          python src/generate_strength_cards.py
-
-      - name: Commit generated results
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add results/
-          git commit -m "Update benchmark placeholder results" || echo "No changes to commit"
-          git push
+    if git diff --cached --quiet; then
+      echo "No changes to commit"
+    else
+      git commit -m "Update benchmark placeholder results"
+      git pull --rebase origin main
+      git push origin main
+    fi
